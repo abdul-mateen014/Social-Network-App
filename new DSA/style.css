@@ -1,0 +1,22 @@
+#search-results {
+    position: absolute;
+    z-index: 1000;
+    background-color: white;
+    max-height: 200px;
+    overflow-y: auto;
+    width: 200px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  #search-results a {
+    padding: 10px;
+    display: block;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  #search-results a:hover {
+    background-color: #f1f1f1;
+  }
+  
